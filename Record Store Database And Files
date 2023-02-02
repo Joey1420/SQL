@@ -1,0 +1,31 @@
+CREATE TABLE store(id INTEGER PRIMARY KEY, item TEXT, album TEXT, price INTEGER, genre TEXT );
+
+INSERT INTO store VALUES
+(1, 'AC/DC', "Highway to Hell", 9.99, "Rock"),
+(2, 'Aerosmith', "Toys in the Attic", 7.99, "Rock"),
+(3, 'Motorhead', "Ace of Spades", 8.99, "Rock"),
+(4, 'No Pressure', "No Pressure", 5.99, "Punk"),
+(5, 'Knuckle Puck', "Copacetic", 5.99, "Punk"),
+(6, 'Neck Deep', "Life's Not Out to Get You", 6.99, "Punk"),
+(7, 'Wretched', "Beyond The Gate", 4.99, "Metal"),
+(8, 'Darude', "Before The Storm", 4.99, "Electronic"),
+(9, 'State Champs', "The Finer Things", 8.99, "Punk"),
+(10, 'The Weeknd', "After Hours", 8.99, "Pop"),
+(11, 'Lorde', "Pure Heroine", 5.99, "Pop"),
+(12, 'Turnstile', "GLOW ON", 7.99, "Punk"),
+(13, 'Turnover', "Good Nature", 6.99, "Dream Pop"),
+(14, 'Title Fight', "Hyperview", 5.99, "Punk"),
+(15, 'Alice In Chains', "Dirt", 9.99, "Rock");
+- list all items
+SELECT * FROM store;
+- list 5 highest priced records
+SELECT * FROM store 
+ORDER BY price desc
+limit 5
+;
+-order records by genre
+SELECT * FROM store
+ORDER BY genre;
+-average price of all records
+SELECT AVG(price) 
+FROM store
