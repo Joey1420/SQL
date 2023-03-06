@@ -1,0 +1,322 @@
+CREATE TABLE drivers (id INTEGER PRIMARY KEY,
+     first_name TEXT,
+     last_name TEXT,
+     hometown TEXT,
+     team_id TEXT);
+     
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Ross", "Chastain", "Alva, Florida", "2");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Austin", "Cindric", "Columbus, Ohio", "13");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Austin", "Dillon", "Welcome, North Carolina", "3");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Kevin", "Harvick", "Bakersfield, California", "12");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Kyle", "Larson", "Elk Grove, California", "1");
+ 
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Brad", "Keselowski", "Rochester Hills, Michigan", "10");
+
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Corey", "LaJoie", "Concord, North Carolina", "6");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Kyle", "Busch", "Las Vegas, Nevada", "3");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Chase", "Elliott", "Dawsonville, Georgia", "1");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Aric", "Almirola", "Tampa, Florida", "12");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Denny", "Hamlin", "Tampa, Florida", "15");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Ryan", "Blaney", "Hartford Township, Ohio", "13");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Chase", "Briscoe", "Mitchell, Indiana", "12");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("J.J.", "Yeley", "Phoenix, Arizona", "11");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("A.J.", "Allmendinger", "Los Gatos, California", "4");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Chris", "Buescher", "Prosper, Texas", "10");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Martin", "Truex Jr.", "Mayetta, New Jersey", "15");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Christopher", "Bell", "Norman, Oklahoma", "15");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Harrison", "Burton", "Huntersville, North Carolina", "14");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Joey", "Logano", "Middletown, Connecticut", "13");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Bubba", "Wallace", "Mobile, Alabama", "16");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("William", "Byron", "Charlotte, North Carolina", "1");
+
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Justin", "Haley", "Winamac, Indiana", "4");
+ 
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Michael", "McDowell", "Phoenix, Arizona", "9");
+
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Todd", "Gililand", "Sherrils Ford, North Carolina","9");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Ryan", "Preece", "Berlin, Connecticut", "12");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Noah", "Gragson", "Las Vegas, Nevada", "7");
+
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Erik", "Jones", "Byron, Michigan", "7");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Tyler", "Reddick", "Corning, California", "16");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Ricky", "Stenhouse Jr.", "Olive Branch, Mississippi", "5");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Alex", "Bowman", "Tucson, Arizona", "1");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Cody", "Ware", "Greensboro, North Carolina", "11");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Ty", "Gibbs", "Charlotte, North Carolina", "15");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Travis", "Pastrana", "Annapolis, Maryland", "16");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Ty", "Dillon", "Welcome, North Carolina", "6");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("B.J.", "McLeod", "Wauchula, Florida", "8");   
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Jimmie", "Johnson", "El Cajon, California", "7");
+   
+INSERT INTO drivers(first_name, last_name, hometown, team_id)
+   VALUES ("Daniel", "Suarez", "Monterrey, Mexico", "2");
+
+CREATE TABLE teams (id INTEGER PRIMARY KEY,
+   name TEXT,
+   manufacturer TEXT,
+   headquarters TEXT);
+
+INSERT INTO teams(name, manufacturer, headquarters)
+  VALUES ("Hendrick Motorsports", "Chevrolet", "Concord, North Carolina");
+  
+INSERT INTO teams(name, manufacturer, headquarters)
+  VALUES ("Trackhouse Racing", "Chevrolet", "Concord, North Carolina");
+  
+INSERT INTO teams(name, manufacturer, headquarters)
+  VALUES ("Richard Childress Racing", "Chevrolet", "Welcome, North Carolina");
+  
+INSERT INTO teams(name, manufacturer, headquarters)
+  VALUES ("Kaulig Racing", "Chevrolet", "Welcome, North Carolina");
+  
+INSERT INTO teams(name, manufacturer, headquarters)
+  VALUES ("JTG Daugherty Racing", "Chevrolet", "Harrisburg, North Carolina");
+  
+INSERT INTO teams(name, manufacturer, headquarters)
+  VALUES ("Spire Racing", "Chevrolet", "Concord, North Carolina");
+  
+INSERT INTO teams(name, manufacturer, headquarters)
+  VALUES ("Legacy Motor Club", "Chevrolet", "Statesville, North Carolina");
+  
+INSERT INTO teams(name, manufacturer, headquarters)
+  VALUES ("Live Fast Motorsports", "Chevrolet", "Mooresville, North Carolina");
+  
+INSERT INTO teams(name, manufacturer, headquarters)
+  VALUES ("Front Row Motorsports", "Ford", "Mooresville, North Carolina");
+  
+INSERT INTO teams(name, manufacturer, headquarters)
+  VALUES ("RFK Racing", "Ford", "Concord, North Carolina");
+  
+INSERT INTO teams(name, manufacturer, headquarters)
+  VALUES ("Rick Ware Racing", "Ford", "Mooresville, North Carolina");
+  
+INSERT INTO teams(name, manufacturer, headquarters)
+  VALUES ("Stewart-Haas Racing", "Ford", "Kannapolis, North Carolina");
+  
+INSERT INTO teams(name, manufacturer, headquarters)
+  VALUES ("Team Penske", "Ford", "Mooresville, North Carolina");
+  
+INSERT INTO teams(name, manufacturer, headquarters)
+  VALUES ("Wood Brothers Racing", "Ford", "Mooresville, North Carolina");
+  
+INSERT INTO teams(name, manufacturer, headquarters)
+  VALUES ("Joe Gibbs Racing", "Toyota", "Huntersville, North Carolina");
+  
+INSERT INTO teams(name, manufacturer, headquarters)
+  VALUES ("23XI Racing", "Toyota", "Mooresville, North Carolina");
+  
+CREATE TABLE crew_chiefs(id INTEGER PRIMARY KEY,
+       first_name TEXT,
+       last_name TEXT,
+       team_id TEXT);
+
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Phil", "Surgen", "2");
+
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Jeremy", "Bullins", "13");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Keith", "Rodden", "3");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Rodney", "Childers", "12");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Cliff", "Daniels", "1");
+ 
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Matt", "McCall", "10");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Ryan", "Sparks", "6");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Randall", "Burnett", "3");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Alan", "Gustafson", "1");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Drew", "Blickensderfer", "12");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Chris", "Gabehart", "15");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Jonathan", "Hassler", "13");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Johnny", "Klausmeier", "12");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Billy", "Plourde", "11");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Matt", "Swiderski", "4");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Scott", "Graves", "10");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("James", "Small", "15");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Adam", "Stevens", "15");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Brian", "Wilson", "14");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Paul", "Wolfe", "13");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Bootie", "Barker", "16");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Rudy", "Fugle", "1");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Trent", "Owens", "4");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Travis", "Peterson", "9");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Ryan", "Bergenty", "9");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Chad", "Johnston", "12");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Luke", "Lambert", "7");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Dave", "Elenz", "7");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Billy", "Scott", "16");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Mike", "Kelley", "5");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Blake", "Harris", "1");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Jerry", "Kelley", "11");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Chris", "Gayle", "15");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Eric", "Phillips", "16");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Kevin", "Bellicourt", "6");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("George", "Ingram", "8");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Todd", "Gordon", "7");
+  
+INSERT INTO crew_chiefs(first_name, last_name, team_id)
+  VALUES ("Travis", "Mack", "2");
+
+*Joining the drivers to their respective crew chiefs*
+SELECT drivers.first_name, drivers.last_name, crew_chiefs.first_name, crew_chiefs.last_name
+FROM drivers
+JOIN crew_chiefs
+ON drivers.id = crew_chiefs.id;
+
+"Joining the drivers and teams table values, then listing a team's drivers by the driver name*
+SELECT drivers.first_name, drivers.last_name, teams.name, teams.manufacturer
+FROM drivers
+JOIN teams
+ON drivers.team_id = teams.id
+WHERE teams.name = "Hendrick Motorsports"
+ORDER BY drivers.first_name;
+
+*Joining all values from all three tables*
+SELECT *
+FROM drivers
+JOIN teams
+ON drivers.team_id = teams.id
+JOIN crew_chiefs
+ON drivers.id = crew_chiefs.id;
+
+"Cleaned up version of data from all 3 tables, sorted by manufacturer and team name*
+SELECT drivers.first_name, drivers.last_name, teams.name AS team, teams.manufacturer, crew_chiefs.first_name, crew_chiefs.last_name
+FROM drivers
+JOIN teams
+ON drivers.team_id = teams.id
+JOIN crew_chiefs
+ON drivers.id = crew_chiefs.id
+ORDER BY manufacturer, teams.name
